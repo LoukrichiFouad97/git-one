@@ -1,0 +1,15 @@
+$mainColor: #bada55;
+$textColor: firebrick;
+
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	@extend .flexCenter;
+	height: 100vh;
+	background-color: $mainColor;
+	color: $textColor;
+}
